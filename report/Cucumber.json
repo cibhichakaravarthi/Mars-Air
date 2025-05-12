@@ -1,0 +1,3751 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5242697000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:41:52.186Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3489700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 2324629000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "There should be a \"departure\" field on a search form",
+        "description": "",
+        "id": "basic-search-flow;there-should-be-a-\"departure\"-field-on-a-search-form",
+        "after": [
+          {
+            "result": {
+              "duration": 156182700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 97214400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "departure field should be available",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.departure_field_should_be_available()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@searchFields"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2213854700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:00.044Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 754635000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "There should be a \"return\" field on a search form",
+        "description": "",
+        "id": "basic-search-flow;there-should-be-a-\"return\"-field-on-a-search-form",
+        "after": [
+          {
+            "result": {
+              "duration": 133549600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 37653000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "return field should be available",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.return_field_should_be_available()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@searchFields"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2934570800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:03.213Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 691730000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Check success message for available seats",
+        "description": "",
+        "id": "basic-search-flow;check-success-message-for-available-seats",
+        "after": [
+          {
+            "result": {
+              "duration": 139865900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168876300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 70259500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522361700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 964812900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "a success message for available seats should be displayed",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.a_success_message_for_available_seats_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@seatsAvailability"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1494610000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:08.721Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 695761000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Check message for no available seats",
+        "description": "",
+        "id": "basic-search-flow;check-message-for-no-available-seats",
+        "after": [
+          {
+            "result": {
+              "duration": 143639500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 86591400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 77713400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user selects a return date \"July (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2312280000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57387600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "a message for no available seats should be displayed",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.a_message_for_no_available_seats_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@seatsAvailability"
+          }
+        ]
+      }
+    ],
+    "name": "Basic Search Flow",
+    "description": "  As a MarsAir Sales Director (Mark)\n  I want potential customers to be able to search for flights to Mars\n  So that they see what trips are available",
+    "id": "basic-search-flow",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/BasicSearchFlow.feature",
+    "tags": [
+      {
+        "name": "@tw",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2775396500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:13.600Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 661261300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 145348300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 102356000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027July\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57891900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027July\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1432200000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52786500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3337005000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:18.836Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 650469000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 168822000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 81508600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027July\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 63063100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027December\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1922352900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52524400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2753885600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:25.127Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 674393100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 178034400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 109245700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027December\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55180900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027December\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1925665100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78505800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2623992200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:30.907Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 700959100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 147302300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 82168500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027December\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62693400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027July (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (next year)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1743572200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53355100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2483905400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:36.331Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 660431800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 146663300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 157473800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027July (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (next year)\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 89117200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027July (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (next year)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1920832300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 46284900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2937949200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:41.850Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 656312100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 139785000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 98954000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027July (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (next year)\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58636300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027December (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December (next year)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1879120000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51367900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1930464300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:47.682Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 671234600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 158323800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 77035000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027December (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December (next year)\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57841700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027December (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December (next year)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2534076700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51118600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1621568800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:53.169Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 671960300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 160013700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 75241400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027December (next year)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December (next year)\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56650900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027July (two years from now)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (two years from now)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 508640800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1296475300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2673292600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:42:57.570Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 672306600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 158491000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 133678000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027July (two years from now)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (two years from now)\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57316700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027July (two years from now)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (two years from now)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2197254200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32784300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2462574400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:03.502Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 679856400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;11",
+        "after": [
+          {
+            "result": {
+              "duration": 143755100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 118667600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027July (two years from now)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027July (two years from now)\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58619700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027December (two years from now)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December (two years from now)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1900004100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56035400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1664044700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:08.929Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 664311200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "return can not be less than 1 year from the departure date",
+        "description": "",
+        "id": "invalid-return-dates;return-can-not-be-less-than-1-year-from-the-departure-date;;12",
+        "after": [
+          {
+            "result": {
+              "duration": 142183300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 102710200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \u0027December (two years from now)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December (two years from now)\u0027",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56039500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \u0027December (two years from now)\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027December (two years from now)\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2195334100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61410700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "an invalid return date message should be displayed",
+            "match": {
+              "location": "stepDefinitions.InvalidReturnDates.an_invalid_return_date_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@invalidReturnDates"
+          }
+        ]
+      }
+    ],
+    "name": "Invalid Return Dates",
+    "description": "  As a MarsAir Sales Director (Mark)\n  I want to prevent potential customers from searching for invalid trips\n  So that they don’t waste time, and book valid ones",
+    "id": "invalid-return-dates",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/InvalidReturnDate.feature",
+    "tags": [
+      {
+        "name": "@tw",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@invalidReturnDates",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 5
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1971163200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:13.822Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 631792000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "User is in the main page so clicking the MarsAir logo on the top left should refresh the page",
+        "description": "",
+        "id": "link-to-home-page;user-is-in-the-main-page-so-clicking-the-marsair-logo-on-the-top-left-should-refresh-the-page",
+        "after": [
+          {
+            "result": {
+              "duration": 138634000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2630231100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on the MarsAir logo on the top left from home",
+            "match": {
+              "location": "stepDefinitions.LinkToHome.user_clicks_on_the_MarsAir_logo_on_the_top_left_from_home()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14484600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be taken to home page",
+            "match": {
+              "location": "stepDefinitions.LinkToHome.user_should_be_taken_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@logo"
+          },
+          {
+            "name": "@linkToPage"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2277230400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:19.213Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 653389800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User is in the results page so clicking the MarsAir logo on the top left should go to the home page",
+        "description": "",
+        "id": "link-to-home-page;user-is-in-the-results-page-so-clicking-the-marsair-logo-on-the-top-left-should-go-to-the-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 184045000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 79945600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61330800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user selects a return date \"July (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488492500,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1765205100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks on the MarsAir logo on the top left from search results page",
+            "match": {
+              "location": "stepDefinitions.LinkToHome.user_clicks_on_the_MarsAir_logo_on_the_top_left_from_search_results_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13855000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should be taken to home page",
+            "match": {
+              "location": "stepDefinitions.LinkToHome.user_should_be_taken_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@logo"
+          },
+          {
+            "name": "@linkToPage"
+          }
+        ]
+      }
+    ],
+    "name": "Link to Home Page",
+    "description": "  As a MarsAir Sales Director (Mark)\n  I want potential customers to be able to go back to the flight search from anywhere on the site\n  So that they are guided towards booking trips",
+    "id": "link-to-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LinkToHomePage.feature",
+    "tags": [
+      {
+        "name": "@tw",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@logo",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 5
+        }
+      },
+      {
+        "name": "@linkToPage",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 11
+        }
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2731339800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:24.746Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 683427600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "User uses a valid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-a-valid-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 160175200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 76362000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 76589400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106848900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user informs a promotional code \u0027AF1-FJK-427\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027AF1-FJK-427\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60818900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1864947400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the search result should have a message \u0027Promotional code AF1-FJK-427 used: 10% discount!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Promotional code AF1-FJK-427 used: 10% discount!\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2585899100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:30.512Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 671020400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "User uses a valid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-a-valid-code;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 158990200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 111602900,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64142000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77330200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user informs a promotional code \u0027GH9-LRY-009\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027GH9-LRY-009\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62103400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3048810300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the search result should have a message \u0027Promotional code GH9-LRY-009 used: 90% discount!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Promotional code GH9-LRY-009 used: 90% discount!\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2170736800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:37.300Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 668205400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "User uses a valid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-a-valid-code;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 158306500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 86754800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55033500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71744600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user informs a promotional code \u0027AF5-FJK-500\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027AF5-FJK-500\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2272309900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60275900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the search result should have a message \u0027Promotional code AF5-FJK-500 used: 50% discount!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Promotional code AF5-FJK-500 used: 50% discount!\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2433948600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:42.851Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 680312700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User uses a valid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-a-valid-code;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 164081800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 111295100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57053500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76193100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user informs a promotional code \u0027BL7-WZU-131\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027BL7-WZU-131\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 539439100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 967189500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the search result should have a message \u0027Promotional code BL7-WZU-131 used: 70% discount!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Promotional code BL7-WZU-131 used: 70% discount!\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2408473400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:47.889Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 664374800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User uses a valid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-a-valid-code;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 155472200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 85881800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65197200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76486300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user informs a promotional code \u0027AF0-FJK-437\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027AF0-FJK-437\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2231937000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37943700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the search result should have a message \u0027Promotional code AF0-FJK-437 used: 00% discount!\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Promotional code AF0-FJK-437 used: 00% discount!\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2925916800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:53.622Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 655208200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "User uses an invalid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-an-invalid-code;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 134052700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 151041900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60366500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98445800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user informs a promotional code \u0027AF1-FJK-428\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027AF1-FJK-428\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503493700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1263951500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the search result should have a message \u0027Sorry, code AF1-FJK-428 is not valid\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sorry, code AF1-FJK-428 is not valid\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2436261700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:43:59.428Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 683407500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "User uses an invalid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-an-invalid-code;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 173459200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 82953600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 65706200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87645800,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user informs a promotional code \u0027AF1-FJK-426\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027AF1-FJK-426\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1501245400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45746400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the search result should have a message \u0027Sorry, code AF1-FJK-426 is not valid\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sorry, code AF1-FJK-426 is not valid\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3212145200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:44:04.510Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 697162800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "User uses an invalid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-an-invalid-code;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 135759700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 95975900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68641200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79857900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user informs a promotional code \u0027AF8-FJK-447\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027AF8-FJK-447\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60244400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1411956200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the search result should have a message \u0027Sorry, code AF8-FJK-447 is not valid\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sorry, code AF8-FJK-447 is not valid\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2564400300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:44:10.279Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 672890100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "User uses an invalid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-an-invalid-code;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 142201100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 90100200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69614000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80498900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user informs a promotional code \u0027AF8-FJK-445\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027AF8-FJK-445\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2257238600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53045500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the search result should have a message \u0027Sorry, code AF8-FJK-445 is not valid\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sorry, code AF8-FJK-445 is not valid\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2158678400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is in the home page",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.user_is_in_the_home_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-05-12T21:44:16.214Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.beforeScenario(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 678298200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "User uses an invalid code",
+        "description": "",
+        "id": "promotional-codes;user-uses-an-invalid-code;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 146129600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 74665400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user selects a departure date \"July\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"July\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_departure_date(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 49321700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "user selects a return date \"December (two years from now)\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"December (two years from now)\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.BasicSearchFlow.user_selects_a_return_date(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74917900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user informs a promotional code \u0027004x000*228\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027004x000*228\u0027",
+                  "offset": 32
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.user_informs_a_promotional_code(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1473118800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "click on search button",
+            "match": {
+              "location": "stepDefinitions.BasicSearchFlow.click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56218200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "the search result should have a message \u0027Sorry, code 004x000*228 is not valid\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Sorry, code 004x000*228 is not valid\u0027",
+                  "offset": 40
+                }
+              ],
+              "location": "stepDefinitions.PromotionalCode.the_search_result_should_have_a_message(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tw"
+          },
+          {
+            "name": "@promoCodes"
+          }
+        ]
+      }
+    ],
+    "name": "Promotional Codes",
+    "description": "  As a MarsAir Sales Director (Mark)\n  I want to distribute promotional codes to customers\n  So that they get discounts and are more tempted to purchase tickets",
+    "id": "promotional-codes",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/PromotionalCodes.feature",
+    "tags": [
+      {
+        "name": "@tw",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      },
+      {
+        "name": "@promoCodes",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 5
+        }
+      }
+    ]
+  }
+]

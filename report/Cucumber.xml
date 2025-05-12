@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="27" time="148.964">
+    <testcase classname="Basic Search Flow" name="There should be a &quot;departure&quot; field on a search form" time="7.844">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Then departure field should be available....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Basic Search Flow" name="There should be a &quot;return&quot; field on a search form" time="3.151">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Then return field should be available.......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Basic Search Flow" name="Check success message for available seats" time="5.496">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+When click on search button.................................................passed
+Then a success message for available seats should be displayed..............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Basic Search Flow" name="Check message for no available seats" time="4.871">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "July (two years from now)"..................passed
+When click on search button.................................................passed
+Then a message for no available seats should be displayed...................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date" time="5.231">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'July'..................................passed
+And user selects a return date 'July'.......................................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 2" time="6.281">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'July'..................................passed
+And user selects a return date 'December'...................................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 3" time="5.775">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'December'..............................passed
+And user selects a return date 'December'...................................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 4" time="5.415">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'December'..............................passed
+And user selects a return date 'July (next year)'...........................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 5" time="5.509">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'July (next year)'......................passed
+And user selects a return date 'July (next year)'...........................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 6" time="5.826">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'July (next year)'......................passed
+And user selects a return date 'December (next year)'.......................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 7" time="5.48">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'December (next year)'..................passed
+And user selects a return date 'December (next year)'.......................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 8" time="4.395">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'December (next year)'..................passed
+And user selects a return date 'July (two years from now)'..................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 9" time="5.926">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'July (two years from now)'.............passed
+And user selects a return date 'July (two years from now)'..................passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 10" time="5.422">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'July (two years from now)'.............passed
+And user selects a return date 'December (two years from now)'..............passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Invalid Return Dates" name="return can not be less than 1 year from the departure date 11" time="4.888">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date 'December (two years from now)'.........passed
+And user selects a return date 'December (two years from now)'..............passed
+When click on search button.................................................passed
+Then an invalid return date message should be displayed.....................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Link to Home Page" name="User is in the main page so clicking the MarsAir logo on the top left should refresh the page" time="5.386">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+When user clicks on the MarsAir logo on the top left from home..............passed
+Then user should be taken to home page......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Link to Home Page" name="User is in the results page so clicking the MarsAir logo on the top left should go to the home page" time="5.527">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "July (two years from now)"..................passed
+And click on search button..................................................passed
+When user clicks on the MarsAir logo on the top left from search results page.passed
+Then user should be taken to home page......................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses a valid code" time="5.763">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'AF1-FJK-427'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Promotional code AF1-FJK-427 used: 10% discount!'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses a valid code 2" time="6.783">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'GH9-LRY-009'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Promotional code GH9-LRY-009 used: 90% discount!'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses a valid code 3" time="5.547">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'AF5-FJK-500'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Promotional code AF5-FJK-500 used: 50% discount!'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses a valid code 4" time="5.032">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'BL7-WZU-131'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Promotional code BL7-WZU-131 used: 70% discount!'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses a valid code 5" time="5.729">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'AF0-FJK-437'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Promotional code AF0-FJK-437 used: 00% discount!'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses an invalid code" time="5.799">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'AF1-FJK-428'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Sorry, code AF1-FJK-428 is not valid'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses an invalid code 2" time="5.077">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'AF1-FJK-426'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Sorry, code AF1-FJK-426 is not valid'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses an invalid code 3" time="5.764">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'AF8-FJK-447'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Sorry, code AF8-FJK-447 is not valid'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses an invalid code 4" time="5.932">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code 'AF8-FJK-445'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Sorry, code AF8-FJK-445 is not valid'.passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Promotional Codes" name="User uses an invalid code 5" time="4.717">
+        <system-out><![CDATA[Given user is in the home page..............................................passed
+Given user selects a departure date "July"..................................passed
+And user selects a return date "December (two years from now)"..............passed
+And user informs a promotional code '004x000*228'...........................passed
+When click on search button.................................................passed
+Then the search result should have a message 'Sorry, code 004x000*228 is not valid'.passed
+]]></system-out>
+    </testcase>
+</testsuite>
